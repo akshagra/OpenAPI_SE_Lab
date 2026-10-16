@@ -11,7 +11,6 @@ A Pygame Fruit Ninja-style game was fixed and extended by prompting an AI coding
 | --- | --- | --- |
 | Videos | [Before_fix_Fruit_Ninja.mp4](Videos/Before_fix_Fruit_Ninja.mp4), [After_fix_Fruit_Ninja.mp4](Videos/After_fix_Fruit_Ninja.mp4) | Gameplay clips from before and after the changes |
 | Updated Code | [Code/](Code/) | The fixed game with all four README tasks done |
-| Chat History | [Chat_History/](Chat_History/) | The full AI chat, exported as a PDF |
 
 ## Changes
 
