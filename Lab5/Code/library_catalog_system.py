@@ -3,7 +3,6 @@
 import hashlib
 import os
 import secrets
-import csv
 
 catalog = {
     "B01": {"title": "Clean Code", "copies": 3, "total": 3},
@@ -34,8 +33,7 @@ def return_book(book_id):
 
 
 def check_availability(book_id):
-    late_fee = 1.50
-    if catalog.get(book_id) == None:
+    if catalog.get(book_id) is None:
         return False
     if catalog[book_id]["copies"] > 0:
         return True
