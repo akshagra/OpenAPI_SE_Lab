@@ -28,6 +28,7 @@ Its main users are API Developers and QA Engineers. A CI/CD Pipeline, a System A
 | [Lab 3](Lab3/) | Component Modelling & Architectural Pattern Selection | Models the system as a three-layer architecture (Presentation, Business, Data) in a UML component diagram, and explains why a layered pattern was chosen, including its security and performance benefits. | [Component diagram](Lab3/Component_Diagram/), [Written justification](Lab3/Written_Justification/) |
 | [Lab 4](Lab4/) | VibeCoding | Uses an AI coding assistant to fix and extend a Pygame Fruit Ninja game: reliable fast-swipe slicing, a Game Over screen, replay at Easy/Medium/Hard, and sound effects. | [Videos](Lab4/Videos/), [Code](Lab4/Code/) |
 | [Lab 5](Lab5/) | Static Code Analysis | Runs Pylint, Bandit and Flake8 on a library catalog script and fixes the issues they report: shell injection, `eval`, MD5, a mutable default argument, bare `except`, and PEP 8 style problems. Pylint goes from 5.32 to 10.00/10, and Bandit and Flake8 report nothing. | [Code](Lab5/Code/), [Issue table](Lab5/issues.md), [Reflection](Lab5/reflection.md), [Reports](Lab5/Reports/) |
+| [Lab 6](Lab6/) | Code & Branch Coverage | Writes pytest cases for a mobile data plan module and measures them with coverage.py. Line coverage goes from 38% to 100%, and branch coverage from 32% to 100% (26/26 branches). | [Code](Lab6/Code/), [Screenshots](Lab6/Screenshots/) |
 
 ## Repository Structure
 
@@ -70,8 +71,16 @@ OpenAPI_SE_Lab/
 │   ├── issues.md
 │   ├── reflection.md
 │   └── README.md
+├── Lab6/
+│   ├── Code/
+│   │   ├── mobile_data_plan.py
+│   │   ├── CodeCoverageTest_PES2UG24CS045_mobile_data_plan.py
+│   │   └── BranchCoverageTest_PES2UG24CS045_mobile_data_plan.py
+│   └── Screenshots/
+│       ├── code_coverage.png
+│       └── branch_coverage.png
 ├── LICENSE
 └── README.md
 ```
 
-Each lab folder has its own README with more detail.
+Labs 1 to 5 each have their own README with more detail.
